@@ -3,7 +3,7 @@ company: "mStart"
 role: "Software Engineer"
 dateStart: "08/01/2018"
 dateEnd: "Current"
-summary: "I am a software engineer at mStart where I focus on building high-performance, scalable systems that streamline data processing, document management, and workflow automation."
+summary: "I focus on building high-performance, scalable systems that streamline data processing, document management, and workflow automation."
 ---
 
 I am a software engineer at mStart where I focus on building high-performance, scalable systems that streamline data processing, document management, and workflow automation. My work spans backend development with Go, C#, and frontend development with JavaScript, TypeScript, jQuery, and React.
