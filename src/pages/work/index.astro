@@ -30,13 +30,13 @@ collectionEducation.map(async (item) => {
 <PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
+      <div class="font-semibold text-black dark:text-white">
         Work
       </div>
       <ul class="flex flex-col space-y-4">
         { 
           work.map(entry => (
-            <li class="animate">
+            <li>
               <div class="text-sm opacity-75">
                 {dateRange(entry.data.dateStart, entry.data.dateEnd)}
               </div>
@@ -53,13 +53,13 @@ collectionEducation.map(async (item) => {
           ))
         }
       </ul>
-      <div class="animate font-semibold text-black dark:text-white">
+      <div class="font-semibold text-black dark:text-white">
         Education
       </div>
       <ul class="flex flex-col space-y-4">
         {
           education.map(entry => (
-          <li class="animate">
+          <li>
               <div class="text-sm opacity-75">
                 {dateRange(entry.data.dateStart, entry.data.dateEnd)}
               </div>

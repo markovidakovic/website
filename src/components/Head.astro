@@ -74,7 +74,7 @@ const { title, description, image = "/nano.png" } = Astro.props;
   function init() {
     preloadTheme();
     onScroll();
-    animate();
+    // animate();
 
     const backToTop = document.getElementById("back-to-top");
     backToTop?.addEventListener("click", (event) => scrollToTop(event));
